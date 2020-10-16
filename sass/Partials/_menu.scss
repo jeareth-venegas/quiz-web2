@@ -1,6 +1,33 @@
 //menu
 
-.menu-list + .footer-list{
+.border-menu{
+    background-color: $bg-color-menu;
+    height: 105px;
+}
+
+#iconos{
+    width: $icono-menuW;
+    height: $icono-menuH;
+}
+
+#iconos img{
+    padding-top:43px;
+    padding-bottom:32px;
+    padding-left: 104px;
+}
+
+.menu-list li{
+    padding-left:506px;
+}
+
+.menu-list li a{
+    color:$color-text;
+}
+
+.menu-list, .footer-list{
     list-style: none;
+}
+
+.menu-list li a, .footer-list li a{
     text-decoration:none;
 }

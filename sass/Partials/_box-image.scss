@@ -1,0 +1,19 @@
+h2{
+    color:$bg-color-boximage;
+}
+
+.box-img{
+	width: 100%;
+	max-width: 100%;
+	float: left;
+	background-color: ghostwhite;
+}
+
+.box-img a, .box-img img{
+	display: block;
+}
+
+.box-img + .box-img{
+	margin-left: 3%;
+}
+
