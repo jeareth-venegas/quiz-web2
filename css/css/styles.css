@@ -70,7 +70,7 @@ h2{
 	width: 100%;
 	max-width: 100%;
 	float: left;
-	background-color:ghostwhite;
+	background-color:ghostwhite; /*para poder ver el fondo y ponerle padding o margin*/ 
 }
 
 .box-img a, .box-img img{
