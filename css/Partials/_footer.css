@@ -1,0 +1,22 @@
+.footer {
+  background-color: #171717;
+  text-align: center;
+}
+
+.footer-list {
+  float: left;
+}
+
+.footer-list a {
+  padding-left: 40px;
+}
+
+#footer-logo-fb {
+  padding-top: 42px;
+  padding-bottom: 49px;
+}
+
+#credits span {
+  margin: 0;
+  padding-bottom: 43px;
+}
