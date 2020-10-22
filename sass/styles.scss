@@ -1,16 +1,14 @@
 //iMPORTO LAS CARPETAS
 
-@import "./Mixins/_mixins";
-@import "./Partials/_global";
-@import "./Partials/_menu";
-@import "./Partials/_header";
-@import "./Partials/_box-image";
-@import "./Partials/_info";
-@import "./Partials/_footer";
-@import "./Partials/_helpers";
-@import "./Breakpoints/_all";
-@import "./Partials/settings";
+@import "Mixins/mixins";
+@import "Partials/global";
+@import "Partials/menu";
+@import "Partials/header";
+@import "Partials/box-image";
+@import "Partials/info";
+@import "Partials/footer";
+@import "Partials/helpers";
+@import "Breakpoints/all";
+@import "Partials/settings";
 
-
-font-family: 'Montserrat', sans-serif;
-font-family: 'Montserrat', sans-serif;
+font{font-family: 'Montserrat', sans-serif;}

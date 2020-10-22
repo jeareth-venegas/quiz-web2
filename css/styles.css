@@ -40,6 +40,7 @@ h2{
 .menu .menu-list{
     float:rigth;
     position:relative; 
+    margin-top: 48px;
 }
 
 .menu-list{
@@ -51,6 +52,11 @@ h2{
     color:#FEFFFF;
     font-size:16px;
 }
+
+.menu-list li + li{
+    margin-left: 43px;
+}
+
 .menu-list li a{
     float: left;
 }
