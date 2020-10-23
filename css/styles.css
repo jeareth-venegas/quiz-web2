@@ -69,24 +69,50 @@ h2{
 }
 
 
+/*imagen de portada*/
+.slider img{
+    height: 545px;
+    width: 1440px;
+}
+
+
 /*paquetes box-img*/
-.box-img{
-    width:22%;
+
+.main{
+	background-color: ghostwhite; /*este color es temporal*/
+	text-align: center;
 }
 
-.box-img{
-    width: 100%;
-    max-width: 100%;
-    float: left;
-    background-color:ghostwhite; /*para poder ver el fondo y ponerle padding o margin*/ 
-}
-
-.box-img a, .box-img img{
-    display: block;
+h2{
+	color:#00080E;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding-top: 60px;
 }
 
 .box-img + .box-img{
-    margin-left: 3%;
+	padding-bottom: 61px;
+}
+
+
+.box-img{
+	padding-left: 83px;
+	padding-top: 54px;
+}
+
+.box-img{
+	position: relative;
+	float: left;
+}
+
+.box-img img{
+	width: 398px;
+	height: 266px;
+}
+
+.box-img a + a{
+	padding-left: 41px;
 }
 
 

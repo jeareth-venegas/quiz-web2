@@ -1,20 +1,39 @@
-h2{
-	color:$bg-color-boximage;
+.main{
+	background-color: ghostwhite;
 	text-align: center;
 }
 
+h2{
+	color:$bg-color-boximage;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding-top: 60px;
+}
+
+//espacios bajos entre las imagenes
+.box-img + .box-img{
+	padding-bottom: 61px;
+}
+
+
 .box-img{
+	padding-left: 83px;
+	padding-top: 54px;
+}
+
+.box-img{
+	position: relative;
+	float: left;
+}
+
+.box-img img{
 	width: 100%;
 	max-width: 100%;
-	float: left;
-	background-color: ghostwhite;
+	height: auto;
 }
 
-.box-img a, .box-img img{
-	display: block;
-}
-
-.box-img + .box-img{
-	margin-left: 3%;
+.box-img a + a{
+	padding-left: 41px;
 }
 
