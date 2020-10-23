@@ -149,7 +149,7 @@ h2{
     margin-top: 263px;
     margin-bottom: 239px;
     margin-left: 272px;
-    margin-right: 266px;
+    /*margin-right: 266px;*/
     float: left;
 }
 
@@ -165,7 +165,24 @@ h2{
 
 
 .information-p{
-    
+    width: 547px;
+    height: 320px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    padding-bottom: 142px;
+
+}
+
+.information-p h2{
+    font-size: 40px;
+    color:  black;/*#FEFFFF*/
+    margin-top: 0;
+}
+
+.information-p p{
+    font-size: 18px;
+    color:  black;/*#FEFFFF*/
 }
 
 /*footer*/

@@ -24,7 +24,21 @@ h2{
     margin-top:0px;
 }
 
-
 .information-p{
-    
+    width: 547px;
+    height: 320px;
+    margin: 0px;
+    float: left;
+    padding-top: 151px;
+}
+
+.information-p h2{
+    font-size: 40px;
+    color: $color-text;
+    margin-top: 0;
+}
+
+.information-p p{
+    font-size: 18px;
+    color: $color-text;
 }
