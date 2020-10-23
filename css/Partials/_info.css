@@ -1,0 +1,25 @@
+.information {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 545px;
+}
+
+#iconos-2 img {
+  margin: 0 auto;
+  margin-top: 263px;
+  margin-bottom: 239px;
+  margin-left: 272px;
+  margin-right: 266px;
+  float: left;
+}
+
+#iconos-2 img {
+  width: 207px;
+  height: 64px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0px;
+}
