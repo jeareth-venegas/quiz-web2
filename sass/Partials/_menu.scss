@@ -18,6 +18,10 @@
     float: left;
 }
 
+.menu-list{
+    padding: 0;
+    margin-top: 0;
+}
 
 .menu-list li a{
     color:$color-text;
@@ -30,6 +34,11 @@
 .menu-list li a, .footer-list li a{
     text-decoration:none;
 }
+
+.menu-list li a + a {
+    padding-left: 45px;
+}
+
 
 .slider img{
     height: 545px;
